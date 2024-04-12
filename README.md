@@ -20,3 +20,4 @@ Before you clone the repository and run the simulation, ensure you have the foll
 
 To set up the simulation environment on your local machine, follow these steps:
 1. Clone the repository:
+  git clone https://github.com/yourusername/your-repository.git
