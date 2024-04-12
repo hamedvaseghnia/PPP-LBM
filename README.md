@@ -23,10 +23,12 @@ To set up the simulation environment on your local machine, follow these steps:
   git clone https://github.com/yourusername/your-repository.git
 2. Compile the code:
 
+`make`
+
 This command will use the Makefile provided to compile the source code into an executable named `run`.
 
 ## Usage
 
 To run the simulation, execute the following command in the terminal:
 
-./run
+`/run`
