@@ -66,9 +66,11 @@ git clone https://github.com/hamedvaseghnia/PPP-LBM.git
 Compile the code:
 
 make
+
 This command will use the Makefile provided to compile the source code into an executable named run.
 
 Usage
+
 To run the simulation, execute the following command in the terminal:
 
 ./run
