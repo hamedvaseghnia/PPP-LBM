@@ -6,15 +6,20 @@ FC = gfortran
 FFLAGS = -O2 -fopenmp
 
 SRCDIR = src
+VTKDIR = vtk
 
 OBJS = $(addprefix $(SRCDIR)/, Variables.o Memory_allocation.o Initialization.o BGK_collision.o Streaming.o Macroscopic.o External_Force.o EquilibriumDF.o OutputFile.o Geometry.o Wall_Boundary.o LBM.o)
 
 TARGET = run
 
-all: $(TARGET)
+all: $(VTKDIR) $(TARGET)
+
+$(VTKDIR):
+	mkdir -p $(VTKDIR)
 
 $(TARGET): $(OBJS)
 	$(FC) $(FFLAGS) -o $@ $^
+
 $(SRCDIR)/%.o: $(SRCDIR)/%.f90
 	$(FC) $(FFLAGS) -c $< -o $@
 
