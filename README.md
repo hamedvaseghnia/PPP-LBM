@@ -21,3 +21,12 @@ Before you clone the repository and run the simulation, ensure you have the foll
 To set up the simulation environment on your local machine, follow these steps:
 1. Clone the repository:
   git clone https://github.com/yourusername/your-repository.git
+2. Compile the code:
+
+This command will use the Makefile provided to compile the source code into an executable named `run`.
+
+## Usage
+
+To run the simulation, execute the following command in the terminal:
+
+./run
