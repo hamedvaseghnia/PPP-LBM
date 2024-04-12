@@ -61,7 +61,7 @@ To set up the simulation environment on your local machine, follow these steps:
 
 Clone the repository:
 
-git clone [URL-to-your-GitHub-repo]
+git clone https://github.com/hamedvaseghnia/PPP-LBM.git
 
 Compile the code:
 
