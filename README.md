@@ -32,3 +32,7 @@ This command will use the Makefile provided to compile the source code into an e
 To run the simulation, execute the following command in the terminal:
 
 `./run`
+
+
+
+![Solution](Solution.gif)
